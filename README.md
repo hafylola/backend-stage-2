@@ -36,6 +36,6 @@ A Django REST API that fetches country data from external APIs, calculates GDP e
 ### Setup
 1. **Clone repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/hafylola/backend-stage-2.git
    cd country-currency-api
 
