@@ -32,7 +32,11 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 if not DEBUG:
     ALLOWED_HOSTS = ['*']  # Change to your domain in production
 else:
-    ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+   ALLOWED_HOSTS = [
+    'web-production-6cf14.up.railway.app',
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
